@@ -11,13 +11,13 @@ A responsive, single-page academic portfolio, designed in the familiar Academic 
 
 ## Customize before publishing
 
-- `index.html`: update name as preferred, bio, research descriptions, exact publication title/authors, email, GitHub, Scholar, and LinkedIn URLs.
-- Replace `assets/profile-placeholder.svg` with your actual photo, then change `<img src="assets/profile-placeholder.svg">` to the filename, e.g. `assets/profile.jpg`.
-- Add your real CV at `assets/Laura_Xing_CV.pdf`. Until then, the CV button links to a missing file.
+- `index.html`: update bio and research descriptions. Email, GitHub, and publication details are filled in from your CV; add Scholar/LinkedIn links when you have confirmed URLs.
+- Your headshot is included at `assets/laura-headshot.jpg`.
+- Your CV is included at `assets/Laura_Xing_CV.pdf`.
 - The research illustrations are original CSS graphics, **not experimental data or project photographs**. Replace with your own photos if desired.
 - `styles.css`: customize colors, typography, and spacing.
 
-**Accuracy note:** The publication entry uses a descriptive placeholder title; check and replace with the authoritative manuscript title and full authorship before publishing. The IROS poster is listed as a research output rather than a peer-reviewed paper. Education/research timelines are initial drafts to verify.
+**Accuracy note:** The preprint entry is taken from your supplied CV; update its review status when it changes. The IROS poster is listed as a research output rather than a peer-reviewed paper. Education/research timelines are initial drafts to verify.
 
 ## Test locally
 
