@@ -1,28 +1,25 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="Laura (Wanting) Xing — researcher in robotic tactile sensing, electronic skin, and sensing systems at Columbia University." name="description"/>
-<meta content="#f9fafb" name="theme-color"/>
+<meta content="Laura Xing is a Mechanical Engineering master’s student at Columbia University, working on tactile sensing, large-area robotic skin, and robotic perception." name="description"/>
+<meta content="#1D4F91" name="theme-color"/>
 <title>Laura Xing | Robotics &amp; Tactile Sensing</title>
 <link href="styles.css" rel="stylesheet"/>
 <script defer="" src="script.js"></script>
-</head>
+<link href="https://lauraxing25.github.io/" rel="canonical"/></head>
 <body>
 <header class="site-header">
 <div class="header-inner">
 <a class="site-brand" href="#home">Laura Xing<span class="brand-dot">.</span></a>
 <button aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation" class="nav-toggle" type="button">☰</button>
-<nav aria-label="Primary navigation" class="main-nav" id="main-nav">
-<a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#cv">CV</a>
-</nav>
+<nav aria-label="Primary navigation" class="main-nav" id="main-nav"><a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#background">Teaching &amp; Service</a><a href="#cv">CV</a></nav>
 </div>
 </header>
 <main class="page-shell" id="home">
 <aside aria-label="Researcher profile" class="profile">
-<div class="portrait-wrap"><img alt="Portrait of Laura Xing" class="portrait" src="headshot.PNG"/></div>
+<div class="portrait-wrap"><img alt="Portrait of Laura Xing" class="portrait" loading="eager" src="headshot.PNG"/></div>
 <h1>Laura Xing</h1>
 <p class="name-subtitle">WanTing (Laura) Xing</p>
 <p class="profile-role">M.S. Student &amp; Research Assistant<br/>Mechanical Engineering</p>
@@ -31,29 +28,58 @@
 <div class="profile-links">
 <a href="mailto:wx2339@columbia.edu">✉ Email <span>↗</span></a>
 <a href="https://github.com/LauraXing25" rel="noopener" target="_blank">⌘ GitHub <span>↗</span></a>
-
-
 </div>
-
 </aside>
 <div class="content">
 <section class="hero" id="about">
 <div class="eyebrow">ROBOTICS · SENSING · HUMAN–ROBOT INTERACTION</div>
-<h2>Hello, I'm Laura <span class="wave">✳</span></h2>
-<p class="lead">I build sensing systems that help robots perceive physical contact and interact more safely and intelligently with the world.</p>
-<p>I am an M.S. student in Mechanical Engineering at <strong>Columbia University</strong>, conducting research in the <strong>Robotic Manipulation and Mobility (ROAM) Lab</strong> with Prof. Matei Ciocarlie. My work focuses on <strong>large-area robotic skin, tactile sensing, embedded electronics, and intelligent sensing systems</strong>.</p>
+<h2>Hello, I'm Laura <span aria-hidden="true" class="wave">✳</span></h2>
+<p class="lead">I am an M.S. student in Mechanical Engineering at <strong>Columbia University</strong>, where I work with Prof. Matei Ciocarlie in the Robotic Manipulation and Mobility (ROAM) Lab.</p>
+<p>My research focuses on <strong>large-area robotic skin, tactile sensing, embedded electronics, and robotic perception</strong>. I'm particularly interested in how robots perceive and interact with the physical world through touch. I enjoy working across different layers of robotic sensing, from sensor design and electronics to how robots interpret and respond to physical contact.</p>
 <p>Previously, I received my B.S. in Biomedical Engineering from <strong>Johns Hopkins University</strong>, where I worked on distributed tactile sensing and compressed sensing approaches to scalable artificial skin.</p>
 <div class="interest-chips"><span>Electronic skin</span><span>Tactile sensing</span><span>Robotic manipulation</span><span>Embedded systems</span><span>Assistive robotics</span></div>
 </section>
 <section class="section-block" id="research">
 <div class="section-heading"><h2>Selected Research</h2><span class="section-no">01 /</span></div>
 <article class="research-card">
-<div aria-hidden="true" class="research-visual visual-leaps"><div class="sensor-pad"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="visual-label">LEAPS / PVDF SKIN</div></div>
-<div><div class="meta">COLUMBIA UNIVERSITY · 2025–PRESENT</div><h3>LEAPS: Large-Area Dynamic Robotic Skin</h3><p>Developing flexible PVDF-based tactile skin with low-noise readout electronics and high-rate sensing to detect transient contact across robot surfaces. Exploring robust sensing, sensitivity tradeoffs, and responsive robot safety behaviors.</p><div class="tags"><span>PVDF</span><span>4 kHz readout</span><span>Robot safety</span></div></div>
+<div aria-hidden="true" class="research-visual visual-leaps">
+<div class="sensor-pad"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div class="visual-label">LEAPS / PVDF SKIN</div>
+</div>
+<div class="research-body">
+<div class="meta">COLUMBIA UNIVERSITY · AUG 2025–PRESENT</div>
+<h3>LEAPS: Large-Area Dynamic Robotic Skin</h3>
+<p class="research-context">ROAM Lab · Advisor: Prof. Matei Ciocarlie</p>
+<p>Robots can precisely track their own movements, but detecting unexpected physical contact across their surfaces remains a challenge. I'm interested in making whole-body tactile sensing practical for safer, more responsive robotic interaction. I'm developing flexible PVDF-based tactile skin with low-noise readout electronics and high-rate sensing to detect transient contact across robot surfaces. My work explores sensitivity tradeoffs, robust contact detection, and responsive robot safety behaviors, alongside soft-robot fabrication and wireless integration.</p>
+<div class="tags"><span>PVDF</span><span>4 kHz readout</span><span>Robot safety</span></div>
+</div>
 </article>
 <article class="research-card">
-<div aria-hidden="true" class="research-visual visual-spts"><div class="dot-grid" id="dot-grid"></div><div class="visual-label">SPTS / TACTILE ARRAY</div></div>
-<div><div class="meta">JOHNS HOPKINS UNIVERSITY · 2023–2025</div><h3>Scalable Tactile Sensing via Compressed Sensing</h3><p>Designed and investigated a distributed flexible tactile array and compressed sensing framework to reduce sampling demands while preserving contact localization. The project combines sensor hardware, embedded communication, and sparse reconstruction.</p><div class="tags"><span>Sensor arrays</span><span>Compressed sensing</span><span>Embedded electronics</span></div><a class="text-link" href="https://arxiv.org/abs/2511.16898" rel="noopener" target="_blank">View preprint ↗</a></div>
+<div aria-hidden="true" class="research-visual visual-spts">
+<div class="dot-grid" id="dot-grid"></div>
+<div class="visual-label">SPTS / TACTILE ARRAY</div>
+</div>
+<div class="research-body">
+<div class="meta">JOHNS HOPKINS UNIVERSITY · OCT 2023–AUG 2025</div>
+<h3>Scalable Tactile Sensing via Compressed Sensing</h3>
+<p class="research-context">Neuroengineering &amp; Biomedical Instrumentation Lab · Advisor: Prof. Nitish Thakor</p>
+<p>As tactile sensors cover larger surfaces, wiring, communication, and data acquisition become increasingly complicated. With SPTS, we explored how to make large-scale tactile sensing more efficient without adding unnecessary hardware complexity. I designed and investigated a distributed flexible tactile array and compressed sensing framework to reduce sampling demands while preserving contact localization. The project combines ATtiny412-based sensor hardware, embedded communication, and sparse reconstruction, with acquisition at a 60 kHz sampling rate.</p>
+<div class="tags"><span>Sensor arrays</span><span>Compressed sensing</span><span>Embedded electronics</span></div>
+<a class="text-link" href="https://arxiv.org/abs/2511.16898" rel="noopener" target="_blank">View preprint ↗</a>
+</div>
+</article>
+<article class="research-card">
+<div aria-hidden="true" class="research-visual visual-lrrk2">
+<div class="cell-illustration"><span class="cell cell-a"></span><span class="cell cell-b"></span><span class="cell cell-c"></span><span class="cell cell-d"></span></div>
+<div class="visual-label">LRRK2 / CELL SIGNALING</div>
+</div>
+<div class="research-body">
+<div class="meta">JOHNS HOPKINS SCHOOL OF MEDICINE · AUG 2022–MAY 2023</div>
+<h3>LRRK2 and Inflammasome Activation</h3>
+<p class="research-context">Division of Infectious Diseases · Advisor: Prof. Andrea Cox</p>
+<p>Before working in robotics, I studied the role of LRRK2 in inflammasome activation at Johns Hopkins School of Medicine. Although the research questions were quite different from those I explore today, this experience introduced me to experimental research and the importance of carefully interpreting measurements. I investigated LRRK2's involvement in NLRP3 inflammasome assembly and caspase-1 activation, using cell culture, sample preparation, and western blotting.</p>
+<div class="tags"><span>Biomedical research</span><span>Cell signaling</span><span>Experimental methods</span></div>
+</div>
 </article>
 </section>
 <section class="section-block" id="publications">
@@ -61,25 +87,15 @@
 <div class="publication"><span class="pub-year">2025</span><div><h3>Single-Pixel Tactile Skin via Compressive Sampling</h3><p><strong>L. Xing*</strong>, A. Slepyan*, R. Zhang*, and N. Thakor. <em>arXiv preprint</em>, 2025.</p><p class="muted small">* Equal contribution. Under second-round review at Nature Communications Engineering (as listed in CV).</p><a class="text-link" href="https://arxiv.org/abs/2511.16898" rel="noopener" target="_blank">arXiv:2511.16898 ↗</a></div></div>
 <div class="publication"><span class="pub-year">2026</span><div><h3>LEAPS: Large-Area Robotic Skin</h3><p>Research poster presented at the IROS 2026 workshop on tactile and compressive sensing.</p><p class="muted small">Add formal title, poster PDF, and publication details when confirmed.</p></div></div>
 </section>
-<section class="section-block" id="experience">
-<div class="section-heading"><h2>Research Experience</h2><span class="section-no">03 /</span></div>
-<div class="timeline">
-<div class="timeline-item"><span class="period">Aug 2025 – Present</span><div><h3>Research Assistant · ROAM Lab</h3><p class="experience-affiliation">Columbia University · Advisor: Prof. Matei Ciocarlie</p><ul class="experience-bullets"><li>Develop PVDF-based, large-area robotic tactile skin with flexible sensor design, low-noise electronics, and wireless communication for robotic safety and interaction.</li><li>Advance fabrication of soft robotic fingers using elastomer casting, emphasizing signal consistency, manufacturability, and component reusability.</li></ul></div></div>
-<div class="timeline-item"><span class="period">Oct 2023 – Aug 2025</span><div><h3>Research Assistant · Neuroengineering &amp; Biomedical Instrumentation Lab</h3><p class="experience-affiliation">Johns Hopkins University · Advisor: Prof. Nitish Thakor</p><ul class="experience-bullets"><li>Designed and implemented SPTS, a scalable ATtiny412-based piezoresistive tactile skin addressing wiring complexity and communication latency.</li><li>Applied compressive sampling and reconstruction to recover detailed pressure maps from limited measurements, with a 60 kHz acquisition/communication system.</li><li>Co-first-authored a related manuscript under second-round review at <em>Nature Communications Engineering</em>.</li></ul></div></div>
-<div class="timeline-item"><span class="period">Aug 2022 – May 2023</span><div><h3>Research Assistant · Division of Infectious Diseases</h3><p class="experience-affiliation">Johns Hopkins School of Medicine · Advisor: Prof. Andrea Cox</p><ul class="experience-bullets"><li>Investigated the role of LRRK2 in NLRP3 inflammasome activation, including inflammasome assembly and caspase-1 activation.</li><li>Performed cell counting and passaging, whole-cell lysate preparation, and western blotting.</li></ul></div></div>
-</div>
-<h3 class="subsection-title">Teaching &amp; Mentorship</h3>
+<section class="section-block" id="background">
+<div class="section-heading"><h2>Teaching &amp; Service</h2><span class="section-no">03 /</span></div>
+<p class="background-intro">I enjoy the collaborative side of engineering, whether it's debugging a circuit with a classmate or introducing younger students to new ideas in biomedical engineering.</p>
 <div class="timeline">
 <div class="timeline-item"><span class="period">Jan 2025</span><div><h3>Teaching Assistant</h3><p>PCB Design and Microcontroller Programming · Johns Hopkins University</p><p class="muted small">Supported students in PCB design, electronics prototyping, microcontroller programming, and debugging.</p></div></div>
-<div class="timeline-item"><span class="period">Jul – Aug 2024</span><div><h3>Student Mentor · ISPEED</h3><p>Johns Hopkins University · Biomedical Engineering</p><p class="muted small">Mentored high-school students in biomedical engineering topics and college applications.</p></div></div>
-</div>
-<h3 class="subsection-title">Education</h3>
-<div class="timeline">
-<div class="timeline-item"><span class="period">Expected 2027</span><div><h3>Columbia University</h3><p>M.S. Mechanical Engineering · Research Track, Robotics and Control</p></div></div>
-<div class="timeline-item"><span class="period">May 2025</span><div><h3>Johns Hopkins University</h3><p>B.S. Biomedical Engineering · Imaging and Medical Devices</p></div></div>
+<div class="timeline-item"><span class="period">Jul–Aug 2024</span><div><h3>Student Mentor · ISPEED</h3><p>Johns Hopkins University · Biomedical Engineering</p><p class="muted small">Mentored high-school students in biomedical engineering topics and college applications.</p></div></div>
 </div>
 </section>
-<section class="section-block last-section" id="cv"><div class="section-heading"><h2>CV &amp; Contact</h2><span class="section-no">04 /</span></div><p>I'm interested in tactile perception, robotic sensing, and interdisciplinary collaborations at the intersection of robotics and bioengineering.</p><div class="cta-row"><a class="button primary" href="mailto:wx2339@columbia.edu">Get in touch ↗</a><a class="button secondary" data-cv="" href="assets/Laura_Xing_CV.pdf">View CV ↗</a></div></section>
+<section class="section-block last-section" id="cv"><div class="section-heading"><h2>CV &amp; Contact</h2><span class="section-no">04 /</span></div><p>I'm interested in tactile perception, robotic sensing, and interdisciplinary collaborations at the intersection of robotics and bioengineering.</p><div class="cta-row"><a class="button primary" href="mailto:wx2339@columbia.edu">Get in touch ↗</a><a class="button secondary" data-cv="" href="Laura_Xing_CV.pdf" rel="noopener" target="_blank">View CV ↗</a></div></section>
 <footer>© <span id="year">2026</span> Laura Xing · Built with GitHub Pages</footer>
 </div>
 </main>
