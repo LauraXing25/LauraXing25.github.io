@@ -8,7 +8,8 @@
 <title>Laura Xing | Robotics &amp; Tactile Sensing</title>
 <link href="styles.css" rel="stylesheet"/>
 <script defer="" src="script.js"></script>
-<link href="https://lauraxing25.github.io/" rel="canonical"/></head>
+<link href="https://lauraxing25.github.io/" rel="canonical"/>
+</head>
 <body>
 <header class="site-header">
 <div class="header-inner">
@@ -41,23 +42,9 @@
 </section>
 <section class="section-block" id="research">
 <div class="section-heading"><h2>Selected Research</h2><span class="section-no">01 /</span></div>
-<article class="research-card">
-<div aria-hidden="true" class="research-visual visual-leaps">
-<div class="sensor-pad"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-<div class="visual-label">LEAPS / PVDF SKIN</div>
-</div>
-<div class="research-body">
-<div class="meta">COLUMBIA UNIVERSITY · AUG 2025–PRESENT</div>
-<h3>LEAPS: Large-Area Dynamic Robotic Skin</h3>
-<p class="research-context">ROAM Lab · Advisor: Prof. Matei Ciocarlie</p>
-<p>Robots can precisely track their own movements, but detecting unexpected physical contact across their surfaces remains a challenge. I'm interested in making whole-body tactile sensing practical for safer, more responsive robotic interaction. I'm developing flexible PVDF-based tactile skin with low-noise readout electronics and high-rate sensing to detect transient contact across robot surfaces. My work explores sensitivity tradeoffs, robust contact detection, and responsive robot safety behaviors, alongside soft-robot fabrication and wireless integration.</p>
-<div class="tags"><span>PVDF</span><span>4 kHz readout</span><span>Robot safety</span></div>
-</div>
-</article>
-<article class="research-card">
-<div aria-hidden="true" class="research-visual visual-spts">
-<div class="dot-grid" id="dot-grid"></div>
-<div class="visual-label">SPTS / TACTILE ARRAY</div>
+<article class="research-card media-card">
+<div class="research-media single-image">
+<img alt="SPTS tactile skin mounted on a UR5 robot arm with a zoomed view of the sensor electronics and circuit schematic." class="research-image" src="research_spts.png"/>
 </div>
 <div class="research-body">
 <div class="meta">JOHNS HOPKINS UNIVERSITY · OCT 2023–AUG 2025</div>
@@ -65,7 +52,20 @@
 <p class="research-context">Neuroengineering &amp; Biomedical Instrumentation Lab · Advisor: Prof. Nitish Thakor</p>
 <p>As tactile sensors cover larger surfaces, wiring, communication, and data acquisition become increasingly complicated. With SPTS, we explored how to make large-scale tactile sensing more efficient without adding unnecessary hardware complexity. I designed and investigated a distributed flexible tactile array and compressed sensing framework to reduce sampling demands while preserving contact localization. The project combines ATtiny412-based sensor hardware, embedded communication, and sparse reconstruction, with acquisition at a 60 kHz sampling rate.</p>
 <div class="tags"><span>Sensor arrays</span><span>Compressed sensing</span><span>Embedded electronics</span></div>
-<a class="text-link" href="https://arxiv.org/abs/2511.16898" rel="noopener" target="_blank">View preprint ↗</a>
+<a class="text-link" href="https://www.nature.com/articles/s44172-026-00697-2" rel="noopener" target="_blank">Published article ↗</a>
+</div>
+</article>
+<article class="research-card media-card">
+<div class="research-media stacked-images">
+<img alt="Conceptual LEAPS robotic skin diagram showing PVDF sensor layers, wireless communication, and safety-control interpretation." class="research-image" src="research_leaps_diagram.png"/>
+<img alt="LEAPS PVDF skin mounted on a robot arm with labeled signal electronics and PVDF layers." class="research-image" src="research_leaps_photo.png"/>
+</div>
+<div class="research-body">
+<div class="meta">COLUMBIA UNIVERSITY · AUG 2025–PRESENT</div>
+<h3>LEAPS: Large-Area Dynamic Robotic Skin</h3>
+<p class="research-context">ROAM Lab · Advisor: Prof. Matei Ciocarlie</p>
+<p>Robots can precisely track their own movements, but detecting unexpected physical contact across their surfaces remains a challenge. I'm interested in making whole-body tactile sensing practical for safer, more responsive robotic interaction. I'm developing flexible PVDF-based tactile skin with low-noise readout electronics and high-rate sensing to detect transient contact across robot surfaces. My work explores sensitivity tradeoffs, robust contact detection, and responsive robot safety behaviors, alongside soft-robot fabrication and wireless integration.</p>
+<div class="tags"><span>PVDF</span><span>4 kHz readout</span><span>Robot safety</span></div>
 </div>
 </article>
 <article class="research-card">
@@ -84,8 +84,9 @@
 </section>
 <section class="section-block" id="publications">
 <div class="section-heading"><h2>Publications &amp; Research Outputs</h2><span class="section-no">02 /</span></div>
-<div class="publication"><span class="pub-year">2025</span><div><h3>Single-Pixel Tactile Skin via Compressive Sampling</h3><p><strong>L. Xing*</strong>, A. Slepyan*, R. Zhang*, and N. Thakor. <em>arXiv preprint</em>, 2025.</p><p class="muted small">* Equal contribution. Under second-round review at Nature Communications Engineering (as listed in CV).</p><a class="text-link" href="https://arxiv.org/abs/2511.16898" rel="noopener" target="_blank">arXiv:2511.16898 ↗</a></div></div>
-<div class="publication"><span class="pub-year">2026</span><div><h3>LEAPS: Large-Area Robotic Skin</h3><p>Research poster presented at the IROS 2026 workshop on tactile and compressive sensing.</p><p class="muted small">Add formal title, poster PDF, and publication details when confirmed.</p></div></div>
+<div class="publication"><span class="pub-year">2026</span><div><h3>Single-Pixel Tactile Skin via Compressive Sampling</h3><p>A. Slepyan*, <strong>L. Xing*</strong>, R. Zhang*, and N. Thakor. <em>Communications Engineering</em> <strong>5</strong>, Article 154 (2026).</p><p class="muted small">* Equal contribution. Published 03 June 2026. Open access.</p><a class="text-link" href="https://www.nature.com/articles/s44172-026-00697-2" rel="noopener" target="_blank">Read article ↗</a></div></div>
+<div class="publication"><span class="pub-year">2026</span><div><h3>Scalable Distributed Tactile Skin via Compressive Sampling</h3><p>Poster presented at Northeast Robotics Colloquium (NERC), 2025 and Princeton Robotics Inaugural Symposium, 2026.</p></div></div>
+<div class="publication"><span class="pub-year">2026</span><div><h3>LEAPS: Large-Area Robotic Skin</h3><p>Research poster presented at the IROS 2026 workshop on tactile and compressive sensing.</p><p class="muted small">Add formal poster title and PDF link when available.</p></div></div>
 </section>
 <section class="section-block" id="background">
 <div class="section-heading"><h2>Teaching &amp; Service</h2><span class="section-no">03 /</span></div>
