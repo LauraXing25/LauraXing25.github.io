@@ -22,3 +22,10 @@ The site is standalone HTML, CSS, and JavaScript; it does not need a build step.
 - IROS workshop: https://tactile-dexterity-iros.github.io/
 - ISPEED program: https://www.bme.jhu.edu/academics/pre-college/apply-to-ispeed-bme/
 - SPTS article: https://www.nature.com/articles/s44172-026-00697-2
+
+## Music section (October 2026)
+
+- Added a standalone Music section and a Music navigation link.
+- Describes mezzo-soprano vocal training through Juilliard Extension and the Peabody Extension Division, with linked teacher profiles for Tharanga Goonetilleke and Lori Şen.
+- Lists eight selections from the repertoire, with standardized titles and original works.
+- CV section renumbered to 05.

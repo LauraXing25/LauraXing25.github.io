@@ -62,3 +62,15 @@
 .timeline h3 a{color:inherit;text-decoration:underline;text-decoration-color:#bdd7ea;text-underline-offset:3px}
 .timeline h3 a:hover{color:#1D4F91}
 @media(max-width:640px){.text-only-card{padding-left:14px}}
+
+/* Music section: quiet editorial styling consistent with the academic pages. */
+.music-bio{font-size:14px;color:#53616c;line-height:1.85;margin:-2px 0 20px}
+.music-bio strong{color:#344958}
+.music-bio a{text-decoration:underline;text-decoration-color:#b9d9eb;text-underline-offset:3px;font-weight:550}
+.music-bio a:hover{text-decoration-color:#1D4F91}
+.music-subheading{color:var(--navy);font-size:16px;letter-spacing:-.2px;margin:23px 0 14px;font-weight:700}
+.repertoire-grid{list-style:none;margin:0 0 16px;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;row-gap:0}
+.repertoire-item{padding:10px 0 11px;border-bottom:1px solid #e4edf3;display:flex;flex-direction:column;gap:2px}
+.repertoire-title{color:#293f50;font-size:14.5px;font-weight:650;line-height:1.45}
+.repertoire-detail{font-size:12px;color:#7a8a96;line-height:1.55}
+@media(max-width:640px){.repertoire-grid{grid-template-columns:1fr}.music-bio{font-size:13.5px}}
